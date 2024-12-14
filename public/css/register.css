@@ -1,0 +1,119 @@
+/* Register Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #004085;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo img {
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.signup-section,
+.login-section {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.signup-section h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.signup-section p {
+    color: #777;
+}
+
+.signup-btn {
+    background-color: #004085;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+    background-color: #003366;
+}
+
+.login-section h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #004085;
+}
+
+.social-login a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border-radius: 50%;
+    background-color: #3b5998;
+    font-size: 20px;
+}
+
+.social-login a:hover {
+    background-color: #2d4373;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #004085;
+    outline: none;
+}
+
+button.signup-btn2 {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button.signup-btn2:hover {
+    background-color: #218838;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+p {
+    color: #555;
+}
